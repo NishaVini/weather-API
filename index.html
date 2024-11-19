@@ -1,0 +1,86 @@
+<html>
+   
+<head> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="style.css">
+     
+</head>
+       <body>
+       <div class="container">
+
+            <div class="inputValue" >
+                <div class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                
+                <input type="text" id="locationInput" placeholder="Enter location... ">
+                <button id="getWeatherButton">Click</button>
+
+            </div>
+
+<div class="weather_container">
+            <div class="weather_section">
+                <div class="city_name" id="city_name"></div>
+                <p class="time"></p>
+                <div class="weather">
+                    <div class="clouds"></div>
+                    <div class="image"></div>
+                </div>
+                <p class="degree"></p>
+                <div class="minMax">
+                    <p class="min"></p>
+                    <p class="max"></p>
+                </div>
+            </div>
+</div>
+
+
+
+            <div class="main_list">
+
+     <div class="weather1">
+
+            <div class="section">
+                  <div class="icon"><i class="fa-solid fa-temperature-half"></i></div>
+                  <div class="box">
+                     <p>feels Like</p>
+                     <div class="degree1" id="feels"></div>
+                  </div>
+            </div>
+
+            
+            <div class="section">
+                  <div class="icon"><i class="fa-solid fa-wind"></i></div>
+                  <div class="box">
+                    <p>Wind</p>
+                    <div class="degree1" id ="wind"></div>
+                  </div>  
+            </div>
+           
+     </div>  
+
+     <div class="weather2">
+     
+            <div class="section">
+            <div class="icon"><i class="fa-solid fa-droplet"></i></div>
+            <div class="box">
+              <p>Humidity</p>
+              <div class="degree1" id ="humidity"></div>
+            </div>   
+      </div>
+
+            <div class="section">
+                  <div class="icon"><i class="fa-solid fa-money-bill-1"></i></div>
+                  
+                  <div class="box">
+                    <p>Pressure</p>
+                    <div class="degree1" id ="pressure"></div>
+                  </div>  
+            </div>
+     </div>
+  </div>
+ </div>
+
+       <script src="script.js "></script>
+         </body>
+         
+
+</html>
